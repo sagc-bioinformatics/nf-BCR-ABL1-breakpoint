@@ -1,0 +1,11 @@
+name: nf-BCR-ABL1-breakpoint
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bwa=0.7.17
+  - perl-statistics-descriptive
+  - sambamba=0.8.0
+  - samtools=1.13
+  - ucsc-twobittofa=377
